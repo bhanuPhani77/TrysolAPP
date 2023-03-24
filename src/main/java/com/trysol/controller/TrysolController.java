@@ -15,4 +15,8 @@ public class TrysolController {
 	public String getDashboard() {
 		return "dashboard";
 	}
+	@GetMapping("/login")
+	public String MyLoginPage() {
+		return "loginpage";
+	}
 }
