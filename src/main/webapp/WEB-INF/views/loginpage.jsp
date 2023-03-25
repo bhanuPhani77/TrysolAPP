@@ -36,7 +36,7 @@
                         <div class="col-xs-15">
                             <div>
                         
-    <c:if test="${param.error != null}">
+    <!-- <c:if test="${param.error != null}">
         <div class="alert alert-danger col-xs-offset-1 col-xs-10">
             Invalid username and password.
         </div>
@@ -45,7 +45,7 @@
         <div class="alert alert-success col-xs-offset-1 col-xs-10">
             You have been logged out.
         </div>
-    </c:if>
+    </c:if> -->
 </div>
 </div>
 </div>

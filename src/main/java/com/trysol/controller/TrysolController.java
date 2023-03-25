@@ -1,10 +1,8 @@
 package com.trysol.controller;
 
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@EnableWebSecurity
 @Controller
 public class TrysolController {
 	@GetMapping("/")
@@ -17,6 +15,10 @@ public class TrysolController {
 	}
 	@GetMapping("/login")
 	public String MyLoginPage() {
-		return "loginpage";
+		return "myloginpage";
+	}
+	@GetMapping("/welcome")
+	public String showWelocmePage() {
+		return "welcome";
 	}
 }
